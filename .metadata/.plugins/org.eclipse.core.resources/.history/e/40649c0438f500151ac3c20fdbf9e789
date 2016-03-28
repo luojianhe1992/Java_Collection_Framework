@@ -1,0 +1,19 @@
+package test_4;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Map<Integer, String> linkedMap = new LinkedHashMap<Integer, String>();
+		Map<Integer, String> treeMap = new TreeMap<Integer, String>();
+		
+		
+		linkedMap.put(4, value)
+		
+		
+		
+	}
+}

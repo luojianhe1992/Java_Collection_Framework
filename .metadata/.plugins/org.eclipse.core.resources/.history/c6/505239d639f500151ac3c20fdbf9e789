@@ -1,0 +1,60 @@
+package test_4;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+import java.util.TreeMap;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Map<Integer, String> linkedMap = new LinkedHashMap<Integer, String>();
+		Map<Integer, String> treeMap = new TreeMap<Integer, String>();
+		
+		
+		linkedMap.put(4, "opq");
+		linkedMap.put(3, "hij");
+		linkedMap.put(2, "efg");
+		linkedMap.put(1, "abc");
+		
+		System.out.println(linkedMap);
+		
+		System.out.println("**********************************************");
+		
+		treeMap.put(4, "opq");
+		treeMap.put(3, "hij");
+		treeMap.put(2, "efg");
+		treeMap.put(1, "abc");
+		
+		System.out.println(treeMap);
+		
+		System.out.println("**********************************************");
+
+		Random random = new Random();
+		
+		List<Double> keys = new LinkedList<Double>();
+		List<Double> values = new LinkedList<Double>();
+		
+		for (int i = 0; i < 100; i++) {
+			keys.add(random.nextDouble());
+			values.add(random.nextDouble() + 1);
+		}
+		
+		Map<Double, Double> map1 = new HashMap<Double, Double>();
+		Map<Double, Double> map2 = new LinkedHashMap<Double, Double>();
+		Map<Double, V>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
