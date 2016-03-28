@@ -1,0 +1,22 @@
+package test_3;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class App {
+	public static void main(String[] args) {
+		Map<Integer, String> hashMap = new HashMap<Integer, String>();
+		
+		hashMap.put(1, "abc");
+		hashMap.put(2, "efg");
+		hashMap.put(3, "hij");
+		hashMap.put(4, "opq");
+		
+		System.out.println(hashMap);
+		
+		System.out.println("*****************************************");
+
+		System.out.println(x);
+		
+	}
+}
