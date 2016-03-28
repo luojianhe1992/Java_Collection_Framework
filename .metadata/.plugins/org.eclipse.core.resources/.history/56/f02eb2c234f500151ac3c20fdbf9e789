@@ -7,7 +7,6 @@ public class App {
 	public static void main(String[] args) {
 		
 		List<String> list1 = new ArrayList<String>(5);
-		// call add function
 		list1.add("Jianhe Luo");
 		list1.add("Xingyu Yan");
 		list1.add("CMU MSBIC");
@@ -36,14 +35,12 @@ public class App {
 
 		System.out.println("*********************************");
 		
-		// call remove function, remove according to the index
 		list1.remove(list1.size() - 1);
 		
 		System.out.println(list1);
 
 		System.out.println("*********************************");
 
-		// call remove function, remove according to the object
 		list1.remove(str);
 		
 		System.out.println(list1);

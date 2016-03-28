@@ -7,7 +7,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		List<String> list1 = new ArrayList<String>(5);
-		// call add function
+		
 		list1.add("Jianhe Luo");
 		list1.add("Xingyu Yan");
 		list1.add("CMU MSBIC");
