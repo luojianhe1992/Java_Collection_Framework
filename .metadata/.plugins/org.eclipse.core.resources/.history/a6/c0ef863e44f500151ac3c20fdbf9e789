@@ -1,0 +1,57 @@
+package test_5;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Set<String> setExample = new HashSet<String>();
+		
+		setExample.add("abc");
+		setExample.add("efg");
+		setExample.add("hij");
+		setExample.add("opq");
+		setExample.add("rst");
+		
+		System.out.println(setExample);
+		
+		System.out.println("**********************************************");
+		
+		System.out.println(setExample.size());
+		
+		System.out.println("**********************************************");
+
+		System.out.println(setExample.contains("efg"));
+		
+		System.out.println("**********************************************");
+
+		// add duplicates to the set
+		setExample.add("efg");
+		setExample.add("hij");
+		
+		System.out.println(setExample);
+		
+		System.out.println("**********************************************");
+
+		System.out.println(setExample.remove("efg"));
+
+		System.out.println(setExample);
+		
+		System.out.println("**********************************************");
+		
+		Iterator<String> it = setExample.iterator();
+		
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		System.out.println("**********************************************");
+
+		
+		Set<String >
+		
+		
+	}	
+}

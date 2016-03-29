@@ -1,0 +1,17 @@
+package test_5;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Set<String> setExample = new HashSet<String>();
+		
+		setExample.add("abc");
+		setExample.add("efg");
+		setExample.add("hij");
+		setExample.add("opq")
+		
+	}
+}
