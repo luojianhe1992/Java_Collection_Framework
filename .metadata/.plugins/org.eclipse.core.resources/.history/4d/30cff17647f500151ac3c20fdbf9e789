@@ -1,0 +1,23 @@
+package test_7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App {
+	public static void main(String[] args) {
+		
+		List<String> animal = new ArrayList<String>();
+		
+		animal.add("Cat");
+		animal.add("Elephant");
+		animal.add("Tiger");
+		animal.add("Lion");
+		animal.add("Snake");
+		animal.add("Mongoose");
+		
+		System.out.println(animal);
+		
+		System.out.println("************************************");
+		
+	}
+}
