@@ -1,0 +1,48 @@
+package test_8;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class App {
+	public static void main(String[] args) {
+		
+		List<String> list1 = new ArrayList<String>();
+		Set<String> set1 = new TreeSet<String>();
+		
+		addElements(list1);
+		showElements(list1);
+		System.out.println("****************************************");
+		addElements(set1);
+		showElements(set1);
+
+		System.out.println("****************************************");
+
+		
+		List<String> list2 = new ArrayList<String>();
+		Set<Strin>
+		
+		
+	}
+	
+	private static void addElements(Collection<String> collection){
+		collection.add("Joe");
+		collection.add("Sue");
+		collection.add("Juliet");
+		collection.add("Clare");
+		collection.add("Mike");
+		collection.add("Iven");
+		collection.add("Ryan");
+	}
+	
+	private static void showElements(Collection<String> collection){
+		for(String element : collection){
+			System.out.println(element);
+		}
+	}
+	
+}
